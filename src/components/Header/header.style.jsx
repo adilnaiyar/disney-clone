@@ -104,7 +104,6 @@ export const Login = styled.a`
 
 export const UserImg = styled.img`
   height: 100%;
-  letter-spacing: 0.8px;
 `;
 
 export const DropDown = styled.div`
@@ -134,6 +133,7 @@ export const SignOut = styled.div`
     border-radius: 50%;
     width: 100%;
     height: 100%;
+    letter-spacing: 0.8px;
   }
   &:hover {
     ${DropDown} {
