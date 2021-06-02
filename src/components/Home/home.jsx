@@ -1,4 +1,5 @@
 import ImageSlider from "../Image-Slider/imageSlider";
+import Recommends from "../Recommends/recommends";
 import Viwers from "../Viwers/viwers";
 import { Container } from "./home.style";
 const Home = () => {
@@ -6,6 +7,7 @@ const Home = () => {
     <Container>
       <ImageSlider />
       <Viwers />
+      <Recommends />
     </Container>
   );
 };
