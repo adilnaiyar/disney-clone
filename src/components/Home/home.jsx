@@ -1,8 +1,9 @@
+import ImageSlider from "../Image-Slider/imageSlider";
 import { Container } from "./home.style";
 const Home = () => {
   return (
     <Container>
-      <h1>Home</h1>
+      <ImageSlider />
     </Container>
   );
 };
