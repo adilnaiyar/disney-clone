@@ -37,6 +37,8 @@ const Home = () => {
           case "trending":
             trending = [...trending, { id: doc.id, ...doc.data() }];
             break;
+          default:
+            console.log("no such document in firebase");
         }
       });
 
